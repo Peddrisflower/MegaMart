@@ -1,0 +1,160 @@
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 70px;
+    
+}
+
+/* Section Titles */
+.sections_title {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Top Brands Section */
+.principais_marcas {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel .slide {
+    min-width: 100%; /* Cada slide ocupa 100% da largura do carrossel */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel .image_container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%; /* Altere para 100% para preencher completamente o contêiner */
+    display: block;
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+}
+
+.carousel h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.carousel p {
+    color: #333;
+    font-size: 14px;
+}
+
+.carousel_controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%); /* Alinha os botões verticalmente no meio */
+}
+
+.carousel_controls .prev,
+.carousel_controls .proximo {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 18px; /* Tamanho dos botões */
+    cursor: pointer;
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Daily Essentials Section */
+.daily_essentials {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Aumentando a intensidade da sombra */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel img {
+        height: 200px; /* Definindo uma altura fixa para as imagens em telas menores */
+    }
+}
+
+/* Daily Essentials Section */
+.daily_essentials {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Aumentando a intensidade da sombra */
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1 1 calc(33.333% - 10px); /* Responsivo: 3 colunas */
+    max-width: 33.333%;
+    text-align: center;
+}
+
+.item .image-container {
+    width: 100%;
+    max-width: 120px; /* Tamanho fixo ajustado */
+    height: 120px; /* Altura fixa para alinhar */
+    margin: 0 auto;
+    overflow: hidden; /* Para evitar imagens que ultrapassem o contêiner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 100%; /* Preenche a largura do contêiner */
+    height: auto; /* Mantém a proporção */
+    display: block;
+    border-radius: 50%; /* Arredondamento */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+}
+
+.item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .item {
+        flex: 1 1 calc(50% - 10px); /* 2 colunas em telas menores */
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        flex: 1 1 100%; /* 1 coluna em telas muito pequenas */
+        max-width: 100%;
+    }
+}

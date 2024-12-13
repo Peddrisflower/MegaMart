@@ -1,0 +1,88 @@
+
+.phone_1{
+    padding-bottom: 11px;
+}
+.slot_1_2{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    margin-left: 27px;
+}
+.phone_2{
+    padding: 3px;
+}
+.slot_1_3{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    margin-left: 27px;
+}
+.phone_3{
+    margin-top: -9px;
+}
+.slot_1_4{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    margin-left: 21px;
+    width: 230px;
+    display: flex;
+}
+.phone_4{
+    padding-left: 10px;
+    margin-top: -9px;
+}
+.slot_1_5{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+}
+.phone_5{
+    width: 110px;
+    padding-bottom:2px;
+}
+.slot_1_6{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    margin-left: 3px;
+}
+.phone_6{
+    width: 110px;
+    margin-top: 20px;
+    padding-bottom:22px;
+}
+.off_2{
+    background-color:#008ECC; 
+    width: 36px;
+    height: 35px;
+    text-align: center;
+    border-radius: 0px 10px;
+    font-size: 0.7rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 5px;
+    margin-right: 22px;
+}
+.off_3{
+    background-color:#008ECC; 
+    width: 36px;
+    height: 35px;
+    text-align: center;
+    border-radius: 0px 10px;
+    font-size: 0.7rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 5px;
+    margin-right: 35px;
+}
+.off_4{
+    background-color:#008ECC; 
+    width: 36px;
+    height: 35px;
+    text-align: center;
+    border-radius: 0px 10px;
+    font-size: 0.7rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 5px;
+    margin-right: 40px;
+}
